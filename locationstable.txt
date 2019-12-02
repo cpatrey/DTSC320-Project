@@ -1,0 +1,21 @@
+CREATE TABLE locations (
+	location_id VARCHAR,
+	country_name VARCHAR,
+	state_province VARCHAR,
+	city_name VARCHAR,
+	address VARCHAR,
+	company_id VARCHAR,
+	zone_id VARCHAR
+);
+
+INSERT INTO locations
+VALUES ('202','Italy','Lombardy','Milan','354 Via del Caduti', '1001','3'),
+	   ('203','France','Alsace Lorraine', 'Strasbourg', '77 Rue Baldner', '1002', '3'),
+	   ('204','Spain','Andalusia','Seville', '865 Calle Nescania', '1003','3'),
+	   ('205','Germany','Bavaria', 'Munich', '908 Kirchenstrasse','1004', '3'),
+	   ('210','Usa','New York','New York City', '6705 Lexington Avenue', '1005', '1'),
+	   ('220','Colombia','Cundinamarca','Bogota', '64 Calle 90','1006','2'),
+	   ('221','France','Burgundy','Dijon','143 Rue Audra', '1007','3'),
+	   ('211','Usa','Illinois','Chicago','2074 W Harrison Street','1008','1'),
+	   ('206','Italy','Piedmont','Turin','290 Piazza Vincenzo Arabello', '1009','3'),
+	   ('207','Germany','Lower Saxony','Hanover', '132 Rosenstrasse','1010','3')
