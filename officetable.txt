@@ -1,0 +1,14 @@
+CREATE TABLE office (
+	office_country_name VARCHAR,
+	office_city_name VARCHAR,
+	office_address VARCHAR,
+	zone_id INTEGER
+	
+);
+
+INSERT INTO office
+VALUES ('Usa', 'New York', '1500 1st Avenue', '1'),
+	   ('Bosnia', 'Sarajevo', '135 Dalmanstinksa', '3'),
+	   ('Colombia', 'Bogota', '45 Calle 23', '2'),
+	   ('Italy', 'Milan', '473 Via Gorani', '3'),
+	   ('India', 'Mumbai', '17 Prakash Thorat Marg', '4')
