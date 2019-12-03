@@ -1,0 +1,19 @@
+CREATE TABLE customers(
+	company_id INTEGER,
+	company_name VARCHAR,
+	contact_name VARCHAR,
+	phone_number VARCHAR,
+	country_name VARCHAR
+);
+	
+INSERT INTO customers
+VALUES ('1001', 'Pfizer', 'Patrick Miller', '267-490-6811', 'Italy'),
+('1002', 'Johnson&Johnson', 'Marion Chandor', '456-867-4258', 'France'),
+('1003', 'Novartis', 'Patricia Marin', '652-452-1479', 'Spain'),
+('1004', 'Merck&Co', 'Laura Scott', '526-852-6312', 'Germany'),
+('1005', 'Roche', 'Patric Henz', '852-456-1236', 'Usa'),
+('1006', 'Eli Lilly', 'Maria Raz', '745-896-2545', 'Colombia'),
+('1007', 'Sanofi', 'Valeria Lugo', '512-896-4523', 'France'),
+('1008', 'Amgen', 'Sofia Marc', '356-258-9514', 'Usa'),
+('1009', 'Bayer', 'Paul Forbes', '159-852-3698', 'Italy'),
+('1010', 'Allergan', 'Francy Mandis', '986-843-9632', 'Germany');
